@@ -1,9 +1,118 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice site</title>
+    <link rel="stylesheet" href="practice.scss/practice.css">
+
+</head>
 <body>
-  <h1>Deon Sanchez</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <div class= "navbar">
+        <div class="container">
+            <a href="practice.html">Doug's <span>GYM</span></a>
+
+            <img id="mobile-cta" class= "mobile-menu" src="images/menu.svg" alt="open navigation">
+
+            <nav>
+
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="close menu">
+
+                <ul class= "primary-nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">features</a></li>
+                    <li><a href="#">pricing</a></li>
+                    <li><a href="#">membership</a></li>
+                </ul>
+
+                <ul class= "secondary-nav">
+                    <li><a href="#">contact</a></li>
+                    <li class= "go-premium-cta"><a href="#">go premium</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero"> 
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">It's Nitty &amp; Gritty</p>
+                <h1>Do You Want to get big?</h1>
+
+                <div class="hero-cta">
+                    <a href="#" class="primary-cts">Try For Free</a>
+                    <a href="#" class="watch-video-cta">watch a video</a>
+                        <img src="images/watch.svg" alt="watch a video">
+                </div>
+            </div>
+            <img src="images/hero-img.jpg" class="hero-img" alt="illustration">
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <ul>
+                <li>cross-fit</li>
+                <li>olympic weight training</li>
+                <li>body building</li>
+                <li>strong-man</li>
+                <li>free-solo training</li>
+                <li>ultra-endurance</li>
+                <li>swimming</li>
+            </ul>
+
+            <img src="" alt="">
+        </div>
+    </section>
+
+    <section class="t-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="" alt="">
+
+                    <blockquote>""</blockquote>
+                    <cite>- jane doe</cite>
+                </li>
+                <li>
+                    <img src="" alt="">
+
+                    <blockquote>""</blockquote>
+                    <cite>- jane doe</cite>
+                </li>
+                <li>
+                    <img src="" alt="">
+
+                    <blockquote>""</blockquote>
+                    <cite>- jane doe</cite>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="c-section">
+        <div class="container">
+            <div class="c-left">
+                <h2>Contact</h2>
+
+                <form action="">
+                    <label for="name">name</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="message">message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                    <input type="submit" class="send-message-cta" value="Send-message">
+                </form>
+            </div>
+
+            <div class="c-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.6152559206866!2d-72.61382528526525!3d41.90113077922037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6f94b92838683%3A0x569567b47a8b918c!2sEast%20Windsor%20High%20School!5e0!3m2!1sen!2sus!4v1617318368882!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
 </body>
- 
 </html>
